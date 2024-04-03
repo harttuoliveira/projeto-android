@@ -34,9 +34,6 @@ body {
     background-color: var(--cor0);
     font-family: var(--font-padrao);
 }
-a.externo::after {
-    content: '\1F517';
-}
  main p {
     margin: 15px 0px;
     text-align: justify;
@@ -113,6 +110,7 @@ nav > a {
     transition-duration: 0.5s;
 }
 nav > a:hover {
+    transform: translate(50 50);
     background-color: var(--cor3);
     color: var(--cor5);
 }
